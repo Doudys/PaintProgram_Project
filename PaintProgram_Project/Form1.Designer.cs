@@ -130,21 +130,21 @@
             // squareToolStripMenuItem
             // 
             this.squareToolStripMenuItem.Name = "squareToolStripMenuItem";
-            this.squareToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.squareToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
             this.squareToolStripMenuItem.Text = "Square";
             this.squareToolStripMenuItem.Click += new System.EventHandler(this.squareToolStripMenuItem_Click);
             // 
             // rectangleToolStripMenuItem
             // 
             this.rectangleToolStripMenuItem.Name = "rectangleToolStripMenuItem";
-            this.rectangleToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.rectangleToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
             this.rectangleToolStripMenuItem.Text = "Rectangle";
             this.rectangleToolStripMenuItem.Click += new System.EventHandler(this.rectangleToolStripMenuItem_Click);
             // 
             // cirleToolStripMenuItem
             // 
             this.cirleToolStripMenuItem.Name = "cirleToolStripMenuItem";
-            this.cirleToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.cirleToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
             this.cirleToolStripMenuItem.Text = "Cirle";
             this.cirleToolStripMenuItem.Click += new System.EventHandler(this.cirleToolStripMenuItem_Click);
             // 
@@ -168,6 +168,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);

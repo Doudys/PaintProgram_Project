@@ -6,3 +6,5 @@ c:\users\vista\documents\visual studio 2010\Projects\PaintProgram_Project\PaintP
 c:\users\vista\documents\visual studio 2010\Projects\PaintProgram_Project\PaintProgram_Project\obj\x86\Debug\PaintProgram_Project.pdb
 C:\Users\vista\Documents\Visual Studio 2010\Projects\PaintProgram_Project\PaintProgram_Project\obj\x86\Debug\PaintProgram_Project.csprojResolveAssemblyReference.cache
 C:\Users\vista\Documents\Visual Studio 2010\Projects\PaintProgram_Project\PaintProgram_Project\obj\x86\Debug\PaintProgram_Project.csproj.GenerateResource.Cache
+C:\Users\vista\Documents\PaintProgram_Project\PaintProgram_Project\obj\x86\Debug\PaintProgram_Project.exe
+C:\Users\vista\Documents\PaintProgram_Project\PaintProgram_Project\obj\x86\Debug\PaintProgram_Project.pdb
