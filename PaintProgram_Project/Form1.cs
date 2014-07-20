@@ -6,7 +6,10 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+<<<<<<< HEAD
 using System.Drawing.Drawing2D;
+=======
+>>>>>>> dbc40ab24e5d72c5621107f5f286f88a7e93c28b
 
 namespace PaintProgram_Project
 {
@@ -23,6 +26,7 @@ namespace PaintProgram_Project
         private void panel1_MouseDown(object sender, MouseEventArgs e)
         {
             canPaint = true;
+<<<<<<< HEAD
 
             if ((drawCircle = true) || (drawSquare = true) || (drawRectangle = true))
             {
@@ -56,6 +60,15 @@ namespace PaintProgram_Project
             }
 
             canPaint = false;
+=======
+            if (drawSquare)
+            {
+                SolidBrush s = new SolidBrush(toolStripButton1.BackColor);
+                g.FillRectangle(s, e.X, e.Y, 50, 50);
+                canPaint = false;
+                drawSquare = false;
+            }
+>>>>>>> dbc40ab24e5d72c5621107f5f286f88a7e93c28b
         }
 
         private void panel1_MouseUp(object sender, MouseEventArgs e)
@@ -72,12 +85,35 @@ namespace PaintProgram_Project
         {
             if (canPaint)
             {
+<<<<<<< HEAD
                     Pen pen = new Pen(toolStripButton1.BackColor, Int16.Parse(PenSize_toolstrip.Text));
+=======
+                //SolidBrush s = new SolidBrush(Color.Black);
+                //g.FillEllipse(s
+                //            , e.X
+                //            , e.Y
+                //            , Convert.ToInt32(PenSize_toolstrip.Text)
+                //            , Convert.ToInt32(PenSize_toolstrip.Text));
+
+                //if (String.IsNullOrEmpty(PenSize_toolstrip.Text) == true)
+                //{
+                //    MessageBox.Show("Please enter a pen size", "Pen Size", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                //    return;
+                //}
+
+                //else
+                //{
+                    Pen pen = new Pen(toolStripButton1.BackColor, float.Parse(PenSize_toolstrip.Text));
+>>>>>>> dbc40ab24e5d72c5621107f5f286f88a7e93c28b
 
                     g.DrawLine(pen, new Point(prevx ?? e.X, prevy ?? e.Y), new Point(e.X, e.Y));
 
                     prevx = e.X;
                     prevy = e.Y;
+<<<<<<< HEAD
+=======
+                //}
+>>>>>>> dbc40ab24e5d72c5621107f5f286f88a7e93c28b
             }
         }
 
@@ -110,6 +146,7 @@ namespace PaintProgram_Project
         bool drawSquare = false;
         private void squareToolStripMenuItem_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             drawSquare = true;
         }
 
@@ -126,5 +163,9 @@ namespace PaintProgram_Project
         }
 
 
+=======
+            bool drawSquare = true;
+        }
+>>>>>>> dbc40ab24e5d72c5621107f5f286f88a7e93c28b
     }
 }

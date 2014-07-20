@@ -1,5 +1,6 @@
 c:\users\vista\documents\visual studio 2010\Projects\PaintProgram_Project\PaintProgram_Project\bin\Debug\PaintProgram_Project.exe
 c:\users\vista\documents\visual studio 2010\Projects\PaintProgram_Project\PaintProgram_Project\bin\Debug\PaintProgram_Project.pdb
+<<<<<<< HEAD
 c:\users\vista\documents\visual studio 2010\Projects\PaintProgram_Project\PaintProgram_Project\obj\x86\Debug\PaintProgram_Project.Form1.resources
 c:\users\vista\documents\visual studio 2010\Projects\PaintProgram_Project\PaintProgram_Project\obj\x86\Debug\PaintProgram_Project.Properties.Resources.resources
 c:\users\vista\documents\visual studio 2010\Projects\PaintProgram_Project\PaintProgram_Project\obj\x86\Debug\PaintProgram_Project.exe
@@ -8,3 +9,12 @@ C:\Users\vista\Documents\Visual Studio 2010\Projects\PaintProgram_Project\PaintP
 C:\Users\vista\Documents\Visual Studio 2010\Projects\PaintProgram_Project\PaintProgram_Project\obj\x86\Debug\PaintProgram_Project.csproj.GenerateResource.Cache
 C:\Users\vista\Documents\PaintProgram_Project\PaintProgram_Project\obj\x86\Debug\PaintProgram_Project.exe
 C:\Users\vista\Documents\PaintProgram_Project\PaintProgram_Project\obj\x86\Debug\PaintProgram_Project.pdb
+=======
+c:\users\vista\documents\visual studio 2010\Projects\PaintProgram_Project\PaintProgram_Project\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\vista\documents\visual studio 2010\Projects\PaintProgram_Project\PaintProgram_Project\obj\x86\Debug\PaintProgram_Project.Form1.resources
+c:\users\vista\documents\visual studio 2010\Projects\PaintProgram_Project\PaintProgram_Project\obj\x86\Debug\PaintProgram_Project.Properties.Resources.resources
+c:\users\vista\documents\visual studio 2010\Projects\PaintProgram_Project\PaintProgram_Project\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\vista\documents\visual studio 2010\Projects\PaintProgram_Project\PaintProgram_Project\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\vista\documents\visual studio 2010\Projects\PaintProgram_Project\PaintProgram_Project\obj\x86\Debug\PaintProgram_Project.exe
+c:\users\vista\documents\visual studio 2010\Projects\PaintProgram_Project\PaintProgram_Project\obj\x86\Debug\PaintProgram_Project.pdb
+>>>>>>> dbc40ab24e5d72c5621107f5f286f88a7e93c28b

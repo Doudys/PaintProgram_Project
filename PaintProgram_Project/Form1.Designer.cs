@@ -34,14 +34,22 @@
             this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
             this.PenSize_toolstrip = new System.Windows.Forms.ToolStripTextBox();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
+<<<<<<< HEAD
             this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
+=======
+            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
+>>>>>>> dbc40ab24e5d72c5621107f5f286f88a7e93c28b
             this.toolStripSplitButton1 = new System.Windows.Forms.ToolStripSplitButton();
             this.squareToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.rectangleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cirleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+<<<<<<< HEAD
             this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
             this.toolStrip_TextBox_ShapeSize = new System.Windows.Forms.ToolStripTextBox();
+=======
+>>>>>>> dbc40ab24e5d72c5621107f5f286f88a7e93c28b
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,7 +58,11 @@
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Location = new System.Drawing.Point(12, 30);
             this.panel1.Name = "panel1";
+<<<<<<< HEAD
             this.panel1.Size = new System.Drawing.Size(470, 281);
+=======
+            this.panel1.Size = new System.Drawing.Size(590, 281);
+>>>>>>> dbc40ab24e5d72c5621107f5f286f88a7e93c28b
             this.panel1.TabIndex = 0;
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
@@ -64,12 +76,19 @@
             this.toolStripButton1,
             this.toolStripButton3,
             this.toolStripButton2,
+<<<<<<< HEAD
             this.toolStripSplitButton1,
             this.toolStripLabel2,
             this.toolStrip_TextBox_ShapeSize});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(502, 25);
+=======
+            this.toolStripSplitButton1});
+            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Size = new System.Drawing.Size(614, 25);
+>>>>>>> dbc40ab24e5d72c5621107f5f286f88a7e93c28b
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -82,7 +101,11 @@
             // PenSize_toolstrip
             // 
             this.PenSize_toolstrip.Name = "PenSize_toolstrip";
+<<<<<<< HEAD
             this.PenSize_toolstrip.Size = new System.Drawing.Size(40, 25);
+=======
+            this.PenSize_toolstrip.Size = new System.Drawing.Size(100, 25);
+>>>>>>> dbc40ab24e5d72c5621107f5f286f88a7e93c28b
             // 
             // toolStripButton1
             // 
@@ -94,6 +117,7 @@
             this.toolStripButton1.Text = "Pen Color";
             this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
+<<<<<<< HEAD
             // toolStripButton3
             // 
             this.toolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
@@ -104,6 +128,8 @@
             this.toolStripButton3.Text = "Canvas color";
             this.toolStripButton3.Click += new System.EventHandler(this.toolStripButton3_Click);
             // 
+=======
+>>>>>>> dbc40ab24e5d72c5621107f5f286f88a7e93c28b
             // toolStripButton2
             // 
             this.toolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
@@ -114,6 +140,19 @@
             this.toolStripButton2.Text = "Reset";
             this.toolStripButton2.Click += new System.EventHandler(this.toolStripButton2_Click);
             // 
+<<<<<<< HEAD
+=======
+            // toolStripButton3
+            // 
+            this.toolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton3.Image")));
+            this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton3.Name = "toolStripButton3";
+            this.toolStripButton3.Size = new System.Drawing.Size(79, 22);
+            this.toolStripButton3.Text = "Canvas color";
+            this.toolStripButton3.Click += new System.EventHandler(this.toolStripButton3_Click);
+            // 
+>>>>>>> dbc40ab24e5d72c5621107f5f286f88a7e93c28b
             // toolStripSplitButton1
             // 
             this.toolStripSplitButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
@@ -130,20 +169,30 @@
             // squareToolStripMenuItem
             // 
             this.squareToolStripMenuItem.Name = "squareToolStripMenuItem";
+<<<<<<< HEAD
             this.squareToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
+=======
+            this.squareToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+>>>>>>> dbc40ab24e5d72c5621107f5f286f88a7e93c28b
             this.squareToolStripMenuItem.Text = "Square";
             this.squareToolStripMenuItem.Click += new System.EventHandler(this.squareToolStripMenuItem_Click);
             // 
             // rectangleToolStripMenuItem
             // 
             this.rectangleToolStripMenuItem.Name = "rectangleToolStripMenuItem";
+<<<<<<< HEAD
             this.rectangleToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
             this.rectangleToolStripMenuItem.Text = "Rectangle";
             this.rectangleToolStripMenuItem.Click += new System.EventHandler(this.rectangleToolStripMenuItem_Click);
+=======
+            this.rectangleToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.rectangleToolStripMenuItem.Text = "Rectangle";
+>>>>>>> dbc40ab24e5d72c5621107f5f286f88a7e93c28b
             // 
             // cirleToolStripMenuItem
             // 
             this.cirleToolStripMenuItem.Name = "cirleToolStripMenuItem";
+<<<<<<< HEAD
             this.cirleToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
             this.cirleToolStripMenuItem.Text = "Cirle";
             this.cirleToolStripMenuItem.Click += new System.EventHandler(this.cirleToolStripMenuItem_Click);
@@ -158,17 +207,28 @@
             // 
             this.toolStrip_TextBox_ShapeSize.Name = "toolStrip_TextBox_ShapeSize";
             this.toolStrip_TextBox_ShapeSize.Size = new System.Drawing.Size(40, 25);
+=======
+            this.cirleToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.cirleToolStripMenuItem.Text = "Cirle";
+>>>>>>> dbc40ab24e5d72c5621107f5f286f88a7e93c28b
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(502, 323);
+=======
+            this.ClientSize = new System.Drawing.Size(614, 323);
+>>>>>>> dbc40ab24e5d72c5621107f5f286f88a7e93c28b
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
             this.Text = "Form1";
+<<<<<<< HEAD
             this.Load += new System.EventHandler(this.Form1_Load);
+=======
+>>>>>>> dbc40ab24e5d72c5621107f5f286f88a7e93c28b
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -189,8 +249,11 @@
         private System.Windows.Forms.ToolStripMenuItem squareToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem rectangleToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cirleToolStripMenuItem;
+<<<<<<< HEAD
         private System.Windows.Forms.ToolStripLabel toolStripLabel2;
         private System.Windows.Forms.ToolStripTextBox toolStrip_TextBox_ShapeSize;
+=======
+>>>>>>> dbc40ab24e5d72c5621107f5f286f88a7e93c28b
     }
 }
 
